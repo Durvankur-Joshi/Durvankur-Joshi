@@ -1,5 +1,12 @@
-# 💫 About Me:
-Hi, I am durvankur Joshi <br>I am a Full stack Web developer <br>I am doing Freelancing 
+Hi, I'm Durvankur Joshi 👋
+I'm a Full-Stack Web Developer specializing in building engaging digital experiences.
+Currently offering my expertise as a Freelancer 💼✨
+
+
+
+
+
+
 
 
 ## 🌐 Socials:
