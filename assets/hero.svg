@@ -1,0 +1,182 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 300" width="100%" height="100%" preserveAspectRatio="xMidYMid meet">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="heroBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#050816" />
+      <stop offset="50%" stop-color="#09102e" />
+      <stop offset="100%" stop-color="#050816" />
+    </linearGradient>
+
+    <!-- Name Text Gradient -->
+    <linearGradient id="nameGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="35%" stop-color="#00F7FF" />
+      <stop offset="70%" stop-color="#00FFA3" />
+      <stop offset="100%" stop-color="#FFFFFF" />
+    </linearGradient>
+
+    <!-- Border Gradient -->
+    <linearGradient id="borderGlow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00F7FF" stop-opacity="0.7" />
+      <stop offset="50%" stop-color="#7F00FF" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#00FFA3" stop-opacity="0.7" />
+    </linearGradient>
+
+    <!-- Laser Scan Beam -->
+    <linearGradient id="laserBeam" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00F7FF" stop-opacity="0" />
+      <stop offset="50%" stop-color="#00F7FF" stop-opacity="0.5" />
+      <stop offset="100%" stop-color="#00FFA3" stop-opacity="0" />
+    </linearGradient>
+
+    <!-- Filter Glows -->
+    <filter id="glowTitle" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3.5" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <filter id="ambientLight" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="15" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    .sans-font {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    }
+    .mono-font {
+      font-family: 'JetBrains Mono', 'Fira Code', 'SF Mono', Consolas, Menlo, monospace;
+    }
+  </style>
+
+  <!-- Frame Background -->
+  <rect x="2" y="2" width="916" height="296" rx="14" fill="url(#heroBg)" stroke="url(#borderGlow)" stroke-width="1.5" />
+
+  <!-- Subtle Cyber Matrix Grid Lines -->
+  <g opacity="0.08" stroke="#00F7FF" stroke-width="0.7">
+    <line x1="0" y1="50" x2="920" y2="50" />
+    <line x1="0" y1="100" x2="920" y2="100" />
+    <line x1="0" y1="150" x2="920" y2="150" />
+    <line x1="0" y1="200" x2="920" y2="200" />
+    <line x1="0" y1="250" x2="920" y2="250" />
+    <line x1="100" y1="0" x2="100" y2="300" />
+    <line x1="250" y1="0" x2="250" y2="300" />
+    <line x1="460" y1="0" x2="460" y2="300" />
+    <line x1="670" y1="0" x2="670" y2="300" />
+    <line x1="820" y1="0" x2="820" y2="300" />
+  </g>
+
+  <!-- Animated Laser Scanline -->
+  <rect x="10" y="0" width="900" height="2" fill="url(#laserBeam)">
+    <animateTransform attributeName="transform" type="translate" from="0 -5" to="0 300" dur="5s" repeatCount="indefinite" />
+  </rect>
+
+  <!-- Corner HUD Tech Accents -->
+  <g stroke="#00F7FF" stroke-width="1.8" fill="none" opacity="0.8">
+    <path d="M 16 32 L 16 16 L 32 16" />
+    <path d="M 904 32 L 904 16 L 888 16" stroke="#00FFA3" />
+    <path d="M 16 268 L 16 284 L 32 284" stroke="#7F00FF" />
+    <path d="M 904 268 L 904 284 L 888 284" />
+  </g>
+
+  <!-- Ambient Glow Blobs -->
+  <circle cx="220" cy="140" r="80" fill="#7F00FF" opacity="0.12" filter="url(#ambientLight)" />
+  <circle cx="700" cy="140" r="90" fill="#00F7FF" opacity="0.12" filter="url(#ambientLight)" />
+
+  <!-- Center Content Hierarchy -->
+  <g text-anchor="middle">
+    <!-- 1. "Hi, I'm" Greeting -->
+    <text x="460" y="55" class="mono-font" font-size="14" font-weight="600" fill="#00F7FF" letter-spacing="3">
+      &lt; HI, I'M /&gt;
+    </text>
+
+    <!-- 2. "DURVANKUR JOSHI" Name Focal Point -->
+    <text x="460" y="112" class="sans-font" font-size="44" font-weight="900" fill="url(#nameGradient)" letter-spacing="3" filter="url(#glowTitle)">
+      DURVANKUR JOSHI
+    </text>
+
+    <!-- 3. Animated Typing Role Line -->
+    <g transform="translate(460, 156)">
+      <!-- Cyber Capsule -->
+      <rect x="-240" y="-18" width="480" height="34" rx="17" fill="#0b1333" stroke="#1d2e68" stroke-width="1.2" />
+      
+      <!-- Terminal Prompt Symbol -->
+      <text x="-215" y="4" class="mono-font" font-size="13" font-weight="700" fill="#00FFA3">&gt;_</text>
+      
+      <!-- Typing Animation Cycling Roles -->
+      <!-- Role 1: Agentic AI -->
+      <text x="-190" y="4" class="mono-font" font-size="13" font-weight="700" fill="#00F7FF" text-anchor="start" letter-spacing="1">
+        Agentic AI Engineer
+        <animate attributeName="opacity" values="1;1;0;0;0;0;0;0;0;0;0;0;1" keyTimes="0;0.14;0.16;0.33;0.35;0.5;0.52;0.66;0.68;0.83;0.85;0.98;1" dur="14s" repeatCount="indefinite" />
+      </text>
+
+      <!-- Role 2: Generative AI -->
+      <text x="-190" y="4" class="mono-font" font-size="13" font-weight="700" fill="#00FFA3" text-anchor="start" letter-spacing="1">
+        Generative AI &amp; RAG Systems
+        <animate attributeName="opacity" values="0;0;1;1;0;0;0;0;0;0;0;0;0" keyTimes="0;0.16;0.18;0.31;0.33;0.5;0.52;0.66;0.68;0.83;0.85;0.98;1" dur="14s" repeatCount="indefinite" />
+      </text>
+
+      <!-- Role 3: Full-Stack Developer -->
+      <text x="-190" y="4" class="mono-font" font-size="13" font-weight="700" fill="#FFFFFF" text-anchor="start" letter-spacing="1">
+        Full-Stack Applications
+        <animate attributeName="opacity" values="0;0;0;0;1;1;0;0;0;0;0;0;0" keyTimes="0;0.16;0.18;0.33;0.35;0.48;0.5;0.66;0.68;0.83;0.85;0.98;1" dur="14s" repeatCount="indefinite" />
+      </text>
+
+      <!-- Role 4: Web3 Developer -->
+      <text x="-190" y="4" class="mono-font" font-size="13" font-weight="700" fill="#00F7FF" text-anchor="start" letter-spacing="1">
+        Web3 &amp; Smart Contracts
+        <animate attributeName="opacity" values="0;0;0;0;0;0;1;1;0;0;0;0;0" keyTimes="0;0.16;0.18;0.33;0.35;0.5;0.52;0.64;0.66;0.83;0.85;0.98;1" dur="14s" repeatCount="indefinite" />
+      </text>
+
+      <!-- Role 5: Hackathon Builder -->
+      <text x="-190" y="4" class="mono-font" font-size="13" font-weight="700" fill="#FFD700" text-anchor="start" letter-spacing="1">
+        🏆 Hackathon Winner &amp; Builder
+        <animate attributeName="opacity" values="0;0;0;0;0;0;0;0;1;1;0;0;0" keyTimes="0;0.16;0.18;0.33;0.35;0.5;0.52;0.66;0.68;0.81;0.83;0.98;1" dur="14s" repeatCount="indefinite" />
+      </text>
+
+      <!-- Blinking Cursor -->
+      <rect x="180" y="-9" width="7" height="17" fill="#00FFA3">
+        <animate attributeName="opacity" values="1;0;1" dur="0.8s" repeatCount="indefinite" />
+      </rect>
+    </g>
+
+    <!-- 4. [ Agentic AI ] [ Gen AI ] [ Full Stack ] [ Web3 ] Domain Pills -->
+    <g transform="translate(460, 208)">
+      <!-- Pill 1: Agentic AI -->
+      <g transform="translate(-230, 0)">
+        <rect x="0" y="-12" width="105" height="24" rx="6" fill="#09142e" stroke="#00F7FF" stroke-width="1" />
+        <text x="52.5" y="4" class="mono-font" font-size="10.5" font-weight="700" fill="#00F7FF">Agentic AI</text>
+      </g>
+
+      <!-- Pill 2: Gen AI -->
+      <g transform="translate(-115, 0)">
+        <rect x="0" y="-12" width="95" height="24" rx="6" fill="#09142e" stroke="#00FFA3" stroke-width="1" />
+        <text x="47.5" y="4" class="mono-font" font-size="10.5" font-weight="700" fill="#00FFA3">Gen AI</text>
+      </g>
+
+      <!-- Pill 3: Full Stack -->
+      <g transform="translate(-10, 0)">
+        <rect x="0" y="-12" width="115" height="24" rx="6" fill="#09142e" stroke="#7F00FF" stroke-width="1" />
+        <text x="57.5" y="4" class="mono-font" font-size="10.5" font-weight="700" fill="#F5F7FF">Full Stack</text>
+      </g>
+
+      <!-- Pill 4: Web3 -->
+      <g transform="translate(115, 0)">
+        <rect x="0" y="-12" width="85" height="24" rx="6" fill="#09142e" stroke="#00F7FF" stroke-width="1" />
+        <text x="42.5" y="4" class="mono-font" font-size="10.5" font-weight="700" fill="#00F7FF">Web3</text>
+      </g>
+    </g>
+
+    <!-- 5. Subtitle Narrative -->
+    <text x="460" y="260" class="sans-font" font-size="13" font-weight="500" fill="#CBD5E1" letter-spacing="0.5">
+      Building intelligent products, full-stack applications and decentralized systems.
+    </text>
+  </g>
+</svg>
