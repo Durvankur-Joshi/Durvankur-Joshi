@@ -56,9 +56,7 @@
 
 <br>
 
-<div align="center">
-  <img src="assets/cyber-divider.svg" width="100%" alt="Divider">
-</div>
+ 
 
 <br>
 
@@ -101,9 +99,7 @@
 
 <br>
 
-<div align="center">
-  <img src="assets/cyber-divider.svg" width="100%" alt="Divider">
-</div>
+ 
 
 <br>
 
@@ -144,9 +140,7 @@
 
 <br>
 
-<div align="center">
-  <img src="assets/cyber-divider.svg" width="100%" alt="Divider">
-</div>
+ 
 
 <br>
 
@@ -229,9 +223,7 @@
 
 <br>
 
-<div align="center">
-  <img src="assets/cyber-divider.svg" width="100%" alt="Divider">
-</div>
+ 
 
 <br>
 
@@ -324,9 +316,7 @@
 
 <br>
 
-<div align="center">
-  <img src="assets/cyber-divider.svg" width="100%" alt="Divider">
-</div>
+ 
 
 <br>
 
@@ -376,9 +366,7 @@
 
 <br>
 
-<div align="center">
-  <img src="assets/cyber-divider.svg" width="100%" alt="Divider">
-</div>
+ 
 
 <br>
 
@@ -477,9 +465,7 @@
 
 <br>
 
-<div align="center">
-  <img src="assets/cyber-divider.svg" width="100%" alt="Divider">
-</div>
+ 
 
 <br>
 
