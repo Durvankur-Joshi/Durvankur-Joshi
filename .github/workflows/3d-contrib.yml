@@ -1,0 +1,37 @@
+name: Generate 3D Contribution Matrix
+
+on:
+  # Run automatically every 24 hours
+  schedule:
+    - cron: "0 0 * * *"
+  
+  # Allows manual workflow execution
+  workflow_dispatch:
+  
+  # Run on push to main branch
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Generate 3D Contribution Grid
+        uses: yoshi389111/github-profile-3d-contrib@0.7.1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+
+      - name: Commit and Push 3D Contribution Assets
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A profile-3d-contrib
+          git diff --quiet && git diff --staged --quiet || git commit -m "chore(cron): update 3d contribution matrix"
+          git push

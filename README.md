@@ -1,7 +1,7 @@
 <!--
   ======================================================================
-  DURVANKUR JOSHI — OFFICIAL GITHUB PROFILE README
-  AI Engineer × Full-Stack Developer × Web3 Builder × Hackathon Developer
+  DURVANKUR JOSHI — OFFICIAL DEVELOPER PROFILE
+  AI Engineer & Full-Stack Developer
   ======================================================================
 -->
 
@@ -11,87 +11,114 @@
 <!-- 01. HERO SECTION                                                       -->
 <!-- ====================================================================== -->
 
-<a href="https://github.com/Durvankur-Joshi">
-  <img src="assets/hero.svg" alt="Durvankur Joshi - AI Engineer & Full-Stack Developer" width="100%">
+<p align="center" style="font-family: monospace; color: #00F7FF; letter-spacing: 3px; margin-bottom: 2px;">
+  &lt; HI, I'M /&gt;
+</p>
+
+# DURVANKUR JOSHI
+
+<a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=17&pause=1000&color=00F7FF&center=true&vCenter=true&random=false&width=460&lines=Agentic+AI+Engineer;Generative+AI+Developer;Full-Stack+Developer;AI+Application+Builder;Web3+Developer;Hackathon+Builder" alt="Typing Animation" />
 </a>
 
 <br><br>
 
-<!-- ACTION HUDS & SOCIALS -->
 <p align="center">
-  <a href="https://linkedin.com/in/YOUR_LINKEDIN" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
+  <code>[ Agentic AI ]</code> &nbsp; <code>[ Gen AI ]</code> &nbsp; <code>[ Full Stack ]</code> &nbsp; <code>[ Web3 ]</code>
+</p>
+
+<p align="center" style="color: #CBD5E1; font-size: 15px; margin-top: 6px;">
+  <b>Building intelligent systems that ship.</b>
+</p>
+
+<p align="center">
+  <a href="https://github.com/Durvankur-Joshi">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub">
+  </a>
+  &nbsp;
+  <a href="https://linkedin.com/in/Durvankur-Joshi" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn">
   </a>
   &nbsp;
   <a href="https://YOUR_PORTFOLIO" target="_blank">
-    <img src="https://img.shields.io/badge/Portfolio-00F7FF?style=for-the-badge&logo=google-chrome&logoColor=050816" alt="Portfolio">
+    <img src="https://img.shields.io/badge/Portfolio-00F7FF?style=flat-square&logo=google-chrome&logoColor=050816" alt="Portfolio">
   </a>
   &nbsp;
-  <a href="mailto:YOUR_EMAIL">
-    <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
-  </a>
-  &nbsp;
-  <a href="https://github.com/Durvankur-Joshi?tab=repositories">
-    <img src="https://img.shields.io/badge/Repositories-00FFA3?style=for-the-badge&logo=github&logoColor=050816" alt="Repositories">
+  <a href="mailto:joshidurvankur.29@gmail.com">
+    <img src="https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email">
   </a>
 </p>
 
-<!-- SECTION DIVIDER -->
-  
+<table align="center" width="90%">
+  <tr>
+    <td bgcolor="#050816" style="border: 1px solid #1f2d6e; border-radius: 8px; padding: 12px 18px;">
+
+```bash
+$ whoami
+durvankur-joshi
+
+$ focus
+agentic-ai + gen-ai + full-stack + web3
+
+$ mission
+build → ship → learn → repeat
+```
+
+  </td>
+</tr>
+</table>
 
 </div>
 
 <br>
 
 <!-- ====================================================================== -->
-<!-- 02. ABOUT ME                                                           -->
+<!-- 02. ABOUT / CURRENT MISSION                                            -->
 <!-- ====================================================================== -->
 
-## 👨‍💻 About Me
+## 👨‍💻 About / Current Mission
 
-- 🎓 **Computer Engineering student** passionate about building scalable, production-grade applications.
-- 🤖 **AI & Full-Stack developer** specializing in **Agentic AI**, **Generative AI**, and **Web3 architectures**.
-- 🏆 **Hackathon builder** with a proven track record of shipping end-to-end solutions under tight deadlines.
-- 💡 Focused on turning complex technical concepts into robust, intuitive, and user-centric products.
+- 🎓 **Computer Engineering student** and **AI / Full-Stack developer** focused on building intelligent, scalable products.
+- 🤖 Core expertise in **Agentic AI** (LangGraph, multi-agent execution graphs, RAG) and **Generative AI** application architectures.
+- ⛓️ Actively developing in **Web3**, smart contracts, and privacy-preserving zero-knowledge concepts.
+- 🏆 **Hackathon builder** driven by turning high-complexity concepts into robust, working software.
 
 <br>
-
- 
-
-<br>
-
-<!-- ====================================================================== -->
-<!-- 03. WHAT I BUILD                                                       -->
-<!-- ====================================================================== -->
-
-## ⚡ What I Build
 
 <table align="center" width="100%">
   <tr>
-    <td width="50%" bgcolor="#050816" style="border: 1px solid #1f2d6e; border-radius: 8px; padding: 16px; vertical-align: top;">
-      <h3 style="color: #00F7FF; margin-top: 0;">🤖 Agentic AI</h3>
-      <p style="color: #CBD5E1; font-size: 14px; line-height: 1.5; margin-bottom: 0;">
-        AI agents, LLM workflows, RAG systems, tool calling and intelligent automation.
-      </p>
-    </td>
-    <td width="50%" bgcolor="#050816" style="border: 1px solid #1f2d6e; border-radius: 8px; padding: 16px; vertical-align: top;">
-      <h3 style="color: #00FFA3; margin-top: 0;">🧠 Generative AI</h3>
-      <p style="color: #CBD5E1; font-size: 14px; line-height: 1.5; margin-bottom: 0;">
-        LLM applications, embeddings, semantic search and AI-powered products.
-      </p>
+    <td bgcolor="#050816" style="border: 1px solid #1f2d6e; border-radius: 8px; padding: 14px 20px;">
+      <span style="color: #00F7FF; font-weight: bold;">BUILD</span> <span style="color: #8B9CC7;">→</span> <span style="color: #F5F7FF;">AI-powered products</span> &nbsp;&bull;&nbsp; 
+      <span style="color: #00FFA3; font-weight: bold;">EXPLORE</span> <span style="color: #8B9CC7;">→</span> <span style="color: #F5F7FF;">Agentic AI + GenAI + Web3</span> &nbsp;&bull;&nbsp; 
+      <span style="color: #7F00FF; font-weight: bold;">LEARN</span> <span style="color: #8B9CC7;">→</span> <span style="color: #F5F7FF;">Advanced AI engineering</span> &nbsp;&bull;&nbsp; 
+      <span style="color: #00F7FF; font-weight: bold;">SHIP</span> <span style="color: #8B9CC7;">→</span> <span style="color: #F5F7FF;">Real-world applications</span>
     </td>
   </tr>
+</table>
+
+<br>
+
+<!-- ====================================================================== -->
+<!-- 03. FEATURED PROJECTS                                                  -->
+<!-- ====================================================================== -->
+
+## 🚀 Featured Projects
+
+<!-- PROJECT 1: MEDVAULT -->
+<table width="100%">
   <tr>
-    <td width="50%" bgcolor="#050816" style="border: 1px solid #1f2d6e; border-radius: 8px; padding: 16px; vertical-align: top;">
-      <h3 style="color: #F5F7FF; margin-top: 0;">🌐 Full-Stack Applications</h3>
-      <p style="color: #CBD5E1; font-size: 14px; line-height: 1.5; margin-bottom: 0;">
-        React / Next.js frontends with FastAPI / Node.js backends and databases.
+    <td bgcolor="#050816" style="border-left: 4px solid #7F00FF; border-top: 1px solid #1f2d6e; border-right: 1px solid #1f2d6e; border-bottom: 1px solid #1f2d6e; border-radius: 8px; padding: 18px;">
+      <h3 style="margin-top: 0; color: #00FFA3;">01. MedVault — Decentralized Medical History Ledger</h3>
+      <p style="color: #CBD5E1; font-size: 14px; line-height: 1.5;">
+        Privacy-first medical record sharing using blockchain, patient consent and zero-knowledge concepts.
       </p>
-    </td>
-    <td width="50%" bgcolor="#050816" style="border: 1px solid #1f2d6e; border-radius: 8px; padding: 16px; vertical-align: top;">
-      <h3 style="color: #7F00FF; margin-top: 0;">⛓️ Web3 Applications</h3>
-      <p style="color: #CBD5E1; font-size: 14px; line-height: 1.5; margin-bottom: 0;">
-        Smart contracts, blockchain, wallet integration and decentralized systems.
+      <!-- Add project screenshot here: <img src="assets/medvault.png" width="100%" alt="MedVault Preview"> -->
+      <p>
+        <code>Next.js</code> &bull; <code>FastAPI</code> &bull; <code>PostgreSQL</code> &bull; <code>Supabase</code> &bull; <code>Solidity</code> &bull; <code>Ethereum</code> &bull; <code>ZK</code>
+      </p>
+      <p>
+        <a href="https://github.com/Durvankur-Joshi/medvault"><img src="https://img.shields.io/badge/[_SOURCE_]-7F00FF?style=flat-square&logo=github&logoColor=white" alt="Source"></a>
+        <a href="https://medvault-umber.vercel.app"><img src="https://img.shields.io/badge/[_LIVE_DEMO_]-00FFA3?style=flat-square&logo=vercel&logoColor=050816" alt="Live Demo"></a>
       </p>
     </td>
   </tr>
@@ -99,61 +126,80 @@
 
 <br>
 
- 
-
-<br>
-
-<!-- ====================================================================== -->
-<!-- 04. DEVELOPER STATUS PANEL                                             -->
-<!-- ====================================================================== -->
-
-## 🧩 Developer Status
-
-<table align="center" width="100%">
+<!-- PROJECT 2: AI DEBUGGING AGENT -->
+<table width="100%">
   <tr>
-    <td bgcolor="#050816" style="border: 1px solid #1f2d6e; border-radius: 8px; padding: 18px;">
-      <table width="100%" style="border-collapse: collapse;">
-        <tr>
-          <td width="20%" style="color: #00F7FF; font-weight: bold; padding: 4px 0;">Role:</td>
-          <td width="80%" style="color: #F5F7FF; padding: 4px 0;">AI / Full-Stack Developer</td>
-        </tr>
-        <tr>
-          <td style="color: #00FFA3; font-weight: bold; padding: 4px 0;">Focus:</td>
-          <td style="color: #F5F7FF; padding: 4px 0;">Agentic AI + Gen AI + Web3</td>
-        </tr>
-        <tr>
-          <td style="color: #00F7FF; font-weight: bold; padding: 4px 0;">Building:</td>
-          <td style="color: #F5F7FF; padding: 4px 0;">AI-powered products and hackathon projects</td>
-        </tr>
-        <tr>
-          <td style="color: #7F00FF; font-weight: bold; padding: 4px 0;">Learning:</td>
-          <td style="color: #F5F7FF; padding: 4px 0;">Advanced AI Engineering + Blockchain</td>
-        </tr>
-        <tr>
-          <td style="color: #00FFA3; font-weight: bold; padding: 4px 0;">Status:</td>
-          <td style="color: #00FFA3; font-weight: bold; padding: 4px 0;">Building 🚀</td>
-        </tr>
-      </table>
+    <td bgcolor="#050816" style="border-left: 4px solid #00F7FF; border-top: 1px solid #1f2d6e; border-right: 1px solid #1f2d6e; border-bottom: 1px solid #1f2d6e; border-radius: 8px; padding: 18px;">
+      <h3 style="margin-top: 0; color: #00F7FF;">02. AI Debugging Agent</h3>
+      <p style="color: #CBD5E1; font-size: 14px; line-height: 1.5;">
+        AI-powered debugging system that understands repositories, retrieves relevant code and helps diagnose errors.
+      </p>
+      <!-- Add project screenshot here: <img src="assets/debugger.png" width="100%" alt="AI Debugger Preview"> -->
+      <p>
+        <code>Python</code> &bull; <code>FastAPI</code> &bull; <code>LangGraph</code> &bull; <code>LangChain</code> &bull; <code>Hugging Face</code> &bull; <code>pgvector</code>
+      </p>
+      <p>
+        <a href="https://github.com/Durvankur-Joshi/ai-debugging-agent"><img src="https://img.shields.io/badge/[_SOURCE_]-00F7FF?style=flat-square&logo=github&logoColor=050816" alt="Source"></a>
+      </p>
     </td>
   </tr>
 </table>
 
 <br>
 
- 
+<!-- PROJECT 3: AI SOFTWARE COMPILER -->
+<table width="100%">
+  <tr>
+    <td bgcolor="#050816" style="border-left: 4px solid #00FFA3; border-top: 1px solid #1f2d6e; border-right: 1px solid #1f2d6e; border-bottom: 1px solid #1f2d6e; border-radius: 8px; padding: 18px;">
+      <h3 style="margin-top: 0; color: #00FFA3;">03. AI Software Compiler</h3>
+      <p style="color: #CBD5E1; font-size: 14px; line-height: 1.5;">
+        Transforms natural-language software requirements into structured application architecture.
+      </p>
+      <!-- Add project screenshot here: <img src="assets/compiler.png" width="100%" alt="Compiler Preview"> -->
+      <p>
+        <code>Python</code> &bull; <code>FastAPI</code> &bull; <code>LLMs</code> &bull; <code>Pydantic</code> &bull; <code>Supabase</code>
+      </p>
+      <p>
+        <a href="https://github.com/Durvankur-Joshi/ai-software-compiler"><img src="https://img.shields.io/badge/[_SOURCE_]-00FFA3?style=flat-square&logo=github&logoColor=050816" alt="Source"></a>
+      </p>
+    </td>
+  </tr>
+</table>
+
+<br>
+
+<!-- PROJECT 4 & 5 GRID -->
+<table width="100%">
+  <tr>
+    <!-- CHATFUSION -->
+    <td width="50%" bgcolor="#050816" style="border-top: 1px solid #1f2d6e; border-right: 1px solid #1f2d6e; border-bottom: 1px solid #1f2d6e; border-left: 3px solid #00F7FF; border-radius: 8px; padding: 16px; vertical-align: top;">
+      <h4 style="margin-top: 0; color: #00F7FF;">04. ChatFusion</h4>
+      <p style="color: #CBD5E1; font-size: 13.5px; line-height: 1.4;">Real-time chat application with interactive messaging.</p>
+      <p><code>MERN</code> &bull; <code>Socket.IO</code></p>
+      <a href="https://github.com/Durvankur-Joshi/chatfusion"><img src="https://img.shields.io/badge/[_SOURCE_]-00F7FF?style=flat-square&logo=github&logoColor=050816" alt="Source"></a>
+    </td>
+    <!-- CODEX -->
+    <td width="50%" bgcolor="#050816" style="border-top: 1px solid #1f2d6e; border-right: 1px solid #1f2d6e; border-bottom: 1px solid #1f2d6e; border-left: 3px solid #7F00FF; border-radius: 8px; padding: 16px; vertical-align: top;">
+      <h4 style="margin-top: 0; color: #00FFA3;">05. CodeX</h4>
+      <p style="color: #CBD5E1; font-size: 13.5px; line-height: 1.4;">Browser-based online coding environment.</p>
+      <p><code>React</code> &bull; <code>Node.js</code> &bull; <code>Express</code></p>
+      <a href="https://github.com/Durvankur-Joshi/codex"><img src="https://img.shields.io/badge/[_SOURCE_]-7F00FF?style=flat-square&logo=github&logoColor=white" alt="Source"></a>
+    </td>
+  </tr>
+</table>
 
 <br>
 
 <!-- ====================================================================== -->
-<!-- 05. TECH STACK                                                         -->
+<!-- 04. TECH STACK                                                         -->
 <!-- ====================================================================== -->
 
 ## 🛠️ Tech Stack
 
 <table align="center" width="100%">
   <tr>
-    <th width="26%" align="left" style="color: #00F7FF;">CATEGORY</th>
-    <th width="74%" align="left" style="color: #00FFA3;">TECHNOLOGIES &amp; TOOLS</th>
+    <th width="24%" align="left" style="color: #00F7FF;">DOMAIN</th>
+    <th width="76%" align="left" style="color: #00FFA3;">TECHNOLOGIES &amp; TOOLS</th>
   </tr>
   <tr>
     <td align="left"><b>💻 Languages</b></td>
@@ -164,7 +210,7 @@
     </td>
   </tr>
   <tr>
-    <td align="left"><b>🧠 AI / ML</b></td>
+    <td align="left"><b>🧠 AI / GenAI</b></td>
     <td align="left">
       <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=00FFA3" alt="LangChain">
       <img src="https://img.shields.io/badge/LangGraph-050816?style=flat-square&logo=diagram-next&logoColor=00F7FF" alt="LangGraph">
@@ -223,119 +269,60 @@
 
 <br>
 
- 
+<!-- ====================================================================== -->
+<!-- 05. SYSTEM ARCHITECTURE                                                -->
+<!-- ====================================================================== -->
+
+## 🧠 System Architecture
+
+<p><em>Conceptual overview: How I approach modern AI and decentralized applications</em></p>
+
+```text
+                  USER
+                    │
+                    ▼
+          ┌──────────────────┐
+          │ Next.js / Client │
+          └────────┬─────────┘
+                   │
+                   ▼
+          ┌──────────────────┐
+          │ API / FastAPI    │
+          └────────┬─────────┘
+                   │
+                   ▼
+       ┌─────────────────────────┐
+       │      AI LAYER           │
+       │                         │
+       │ LLMs • Agents • RAG     │
+       │ Tools • Memory          │
+       └───────┬─────────┬───────┘
+               │         │
+               ▼         ▼
+        ┌──────────┐  ┌──────────┐
+        │ Database │  │  Web3    │
+        │ Postgres │  │ EVM / ZK │
+        └──────────┘  └──────────┘
+```
 
 <br>
 
 <!-- ====================================================================== -->
-<!-- 06. FEATURED PROJECTS                                                  -->
-<!-- ====================================================================== -->
-
-## 🚀 Featured Projects
-
-<!-- PROJECT 1: MEDVAULT -->
-<table width="100%">
-  <tr>
-    <td bgcolor="#050816" style="border-left: 4px solid #7F00FF; border-top: 1px solid #1f2d6e; border-right: 1px solid #1f2d6e; border-bottom: 1px solid #1f2d6e; border-radius: 8px; padding: 18px;">
-      <h3 style="margin-top: 0;"><a href="https://github.com/Durvankur-Joshi/medvault" style="color: #00FFA3; text-decoration: none;">01. MedVault — Decentralized Medical History Ledger</a></h3>
-      <p style="color: #CBD5E1; font-size: 14px; line-height: 1.5;">
-        Privacy-first medical record sharing using blockchain, patient consent and zero-knowledge concepts.
-      </p>
-      <p>
-        <code>Next.js</code> &bull; <code>FastAPI</code> &bull; <code>PostgreSQL</code> &bull; <code>Supabase</code> &bull; <code>Solidity</code> &bull; <code>Ethereum</code> &bull; <code>ZK</code>
-      </p>
-      <p>
-        <a href="https://github.com/Durvankur-Joshi/medvault"><img src="https://img.shields.io/badge/Code-GitHub-7F00FF?style=flat-square&logo=github&logoColor=white" alt="Code"></a>
-        <a href="https://YOUR_LIVE_DEMO_LINK"><img src="https://img.shields.io/badge/Live_Demo-00FFA3?style=flat-square&logo=vercel&logoColor=050816" alt="Live Demo"></a>
-      </p>
-    </td>
-  </tr>
-</table>
-
-<br>
-
-<!-- PROJECT 2: AI DEBUGGING AGENT -->
-<table width="100%">
-  <tr>
-    <td bgcolor="#050816" style="border-left: 4px solid #00F7FF; border-top: 1px solid #1f2d6e; border-right: 1px solid #1f2d6e; border-bottom: 1px solid #1f2d6e; border-radius: 8px; padding: 18px;">
-      <h3 style="margin-top: 0;"><a href="https://github.com/Durvankur-Joshi/ai-debugging-agent" style="color: #00F7FF; text-decoration: none;">02. AI Debugging Agent</a></h3>
-      <p style="color: #CBD5E1; font-size: 14px; line-height: 1.5;">
-        AI-powered debugging system that understands repositories, retrieves relevant code and helps diagnose errors.
-      </p>
-      <p>
-        <code>Python</code> &bull; <code>FastAPI</code> &bull; <code>LangGraph</code> &bull; <code>LangChain</code> &bull; <code>Hugging Face</code> &bull; <code>pgvector</code>
-      </p>
-      <p>
-        <a href="https://github.com/Durvankur-Joshi/ai-debugging-agent"><img src="https://img.shields.io/badge/Code-GitHub-00F7FF?style=flat-square&logo=github&logoColor=050816" alt="Code"></a>
-      </p>
-    </td>
-  </tr>
-</table>
-
-<br>
-
-<!-- PROJECT 3: AI SOFTWARE COMPILER -->
-<table width="100%">
-  <tr>
-    <td bgcolor="#050816" style="border-left: 4px solid #00FFA3; border-top: 1px solid #1f2d6e; border-right: 1px solid #1f2d6e; border-bottom: 1px solid #1f2d6e; border-radius: 8px; padding: 18px;">
-      <h3 style="margin-top: 0;"><a href="https://github.com/Durvankur-Joshi/ai-software-compiler" style="color: #00FFA3; text-decoration: none;">03. AI Software Compiler</a></h3>
-      <p style="color: #CBD5E1; font-size: 14px; line-height: 1.5;">
-        Transforms natural-language software requirements into structured application architecture.
-      </p>
-      <p>
-        <code>Python</code> &bull; <code>FastAPI</code> &bull; <code>LLMs</code> &bull; <code>Pydantic</code> &bull; <code>Supabase</code>
-      </p>
-      <p>
-        <a href="https://github.com/Durvankur-Joshi/ai-software-compiler"><img src="https://img.shields.io/badge/Code-GitHub-00FFA3?style=flat-square&logo=github&logoColor=050816" alt="Code"></a>
-      </p>
-    </td>
-  </tr>
-</table>
-
-<br>
-
-<!-- PROJECT 4 & 5 GRID -->
-<table width="100%">
-  <tr>
-    <!-- CHATFUSION -->
-    <td width="50%" bgcolor="#050816" style="border-top: 1px solid #1f2d6e; border-right: 1px solid #1f2d6e; border-bottom: 1px solid #1f2d6e; border-left: 3px solid #00F7FF; border-radius: 8px; padding: 16px; vertical-align: top;">
-      <h4 style="margin-top: 0;"><a href="https://github.com/Durvankur-Joshi/chatfusion" style="color: #00F7FF; text-decoration: none;">04. ChatFusion</a></h4>
-      <p style="color: #CBD5E1; font-size: 13.5px; line-height: 1.4;">Real-time chat application with interactive messaging.</p>
-      <p><code>MERN</code> &bull; <code>Socket.IO</code></p>
-      <a href="https://github.com/Durvankur-Joshi/chatfusion"><img src="https://img.shields.io/badge/Repo-GitHub-00F7FF?style=flat-square&logo=github&logoColor=050816" alt="Code"></a>
-    </td>
-    <!-- CODEX -->
-    <td width="50%" bgcolor="#050816" style="border-top: 1px solid #1f2d6e; border-right: 1px solid #1f2d6e; border-bottom: 1px solid #1f2d6e; border-left: 3px solid #7F00FF; border-radius: 8px; padding: 16px; vertical-align: top;">
-      <h4 style="margin-top: 0;"><a href="https://github.com/Durvankur-Joshi/codex" style="color: #00FFA3; text-decoration: none;">05. CodeX</a></h4>
-      <p style="color: #CBD5E1; font-size: 13.5px; line-height: 1.4;">Browser-based online coding environment.</p>
-      <p><code>React</code> &bull; <code>Node.js</code> &bull; <code>Express</code></p>
-      <a href="https://github.com/Durvankur-Joshi/codex"><img src="https://img.shields.io/badge/Repo-GitHub-7F00FF?style=flat-square&logo=github&logoColor=white" alt="Code"></a>
-    </td>
-  </tr>
-</table>
-
-<br>
-
- 
-
-<br>
-
-<!-- ====================================================================== -->
-<!-- 07. HACKATHONS & ACHIEVEMENTS                                          -->
+<!-- 06. HACKATHONS & ACHIEVEMENTS                                          -->
 <!-- ====================================================================== -->
 
 ## 🏆 Hackathons & Achievements
 
 <table align="center" width="100%">
   <tr>
-    <td bgcolor="#050816" style="border: 1px solid #1f2d6e; border-radius: 8px; padding: 18px;">
+    <td bgcolor="#050816" style="border: 1px solid #1f2d6e; border-radius: 8px; padding: 16px;">
       <table width="100%" style="border-collapse: collapse;">
         <tr>
           <td width="8%" align="center" valign="middle"><h2>🥇</h2></td>
           <td width="92%">
-            <h4 style="margin: 0; color: #FFD700;">Web Wizard Hackathon &bull; Winner</h4>
+            <h4 style="margin: 0; color: #FFD700;">Web Wizard Hackathon — Winner</h4>
             <p style="margin: 3px 0 0 0; color: #CBD5E1; font-size: 13.5px;">
-              Awarded 1st place for designing and building an end-to-end full-stack software prototype under timed hackathon conditions.
+              Earned 1st place for designing and building an end-to-end full-stack software prototype under timed hackathon constraints.
             </p>
           </td>
         </tr>
@@ -343,7 +330,7 @@
         <tr>
           <td width="8%" align="center" valign="middle"><h2>🌐</h2></td>
           <td width="92%">
-            <h4 style="margin: 0; color: #00F7FF;">HackNexus'26 &bull; Building MedVault</h4>
+            <h4 style="margin: 0; color: #00F7FF;">HackNexus'26 — Building MedVault</h4>
             <p style="margin: 3px 0 0 0; color: #CBD5E1; font-size: 13.5px;">
               Competed in Domain: Web3 &amp; Decentralized Applications, developing a Zero-Knowledge sovereign medical history ledger.
             </p>
@@ -353,9 +340,9 @@
         <tr>
           <td width="8%" align="center" valign="middle"><h2>🛡️</h2></td>
           <td width="92%">
-            <h4 style="margin: 0; color: #00FFA3;">Web Development Domain Head &bull; Hackathon Club</h4>
+            <h4 style="margin: 0; color: #00FFA3;">Web Development Domain Head — Hackathon Club</h4>
             <p style="margin: 3px 0 0 0; color: #CBD5E1; font-size: 13.5px;">
-              Leading technical workshops, guiding full-stack architecture, and mentoring student developer teams for hackathons.
+              Leading technical workshops, mentoring developer cohorts, and guiding full-stack architecture for hackathon teams.
             </p>
           </td>
         </tr>
@@ -366,31 +353,13 @@
 
 <br>
 
- 
-
-<br>
-
 <!-- ====================================================================== -->
-<!-- 08. GAMIFIED CONTRIBUTION SECTION                                      -->
+<!-- 07. GITHUB COMMAND CENTER                                              -->
 <!-- ====================================================================== -->
 
 <div align="center">
 
-## 🐍 Contribution Game
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Durvankur-Joshi/Durvankur-Joshi/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Durvankur-Joshi/Durvankur-Joshi/output/github-contribution-grid-snake.svg">
-  <img alt="Durvankur's GitHub Contribution Grid Snake" src="https://raw.githubusercontent.com/Durvankur-Joshi/Durvankur-Joshi/output/github-contribution-grid-snake-dark.svg" width="100%">
-</picture>
-
-<br><br>
-
-<!-- ====================================================================== -->
-<!-- 09. GITHUB ANALYTICS                                                   -->
-<!-- ====================================================================== -->
-
-## 📊 GitHub Analytics
+## 📡 GitHub Command Center
 
 <table align="center" width="100%">
   <tr>
@@ -411,66 +380,54 @@
 <br>
 
 <!-- ====================================================================== -->
-<!-- 10. CONTRIBUTION ACTIVITY GRAPH                                        -->
+<!-- 08. 3D CONTRIBUTION MATRIX + SNAKE GAME                                -->
 <!-- ====================================================================== -->
 
-## 📈 Activity Graph
+## 🧊 3D Contribution Matrix
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Durvankur-Joshi&bg_color=050816&color=00F7FF&line=00FFA3&point=7F00FF&area=true&hide_border=false&border=1f2d6e" width="100%" alt="Contribution Activity Graph">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="profile-3d-contrib/profile-night-rainbow.svg">
+  <source media="(prefers-color-scheme: light)" srcset="profile-3d-contrib/profile-night-rainbow.svg">
+  <img src="profile-3d-contrib/profile-night-rainbow.svg" alt="3D Contribution Matrix" width="100%">
+</picture>
 
 <br><br>
 
-  
+## 🐍 Contribution Game
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Durvankur-Joshi/Durvankur-Joshi/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Durvankur-Joshi/Durvankur-Joshi/output/github-contribution-grid-snake.svg">
+  <img alt="GitHub Contribution Snake" src="https://raw.githubusercontent.com/Durvankur-Joshi/Durvankur-Joshi/output/github-contribution-grid-snake-dark.svg" width="100%">
+</picture>
 
 </div>
 
 <br>
 
 <!-- ====================================================================== -->
-<!-- 11. CURRENTLY EXPLORING                                                -->
+<!-- 09. CURRENTLY BUILDING                                                 -->
 <!-- ====================================================================== -->
 
-## 🎯 Currently Exploring
+## 🟢 Currently Building
 
-<table align="center" width="100%">
-  <tr>
-    <td width="33%" bgcolor="#050816" style="border: 1px solid #1f2d6e; border-radius: 8px; padding: 14px;">
-      <b style="color: #00F7FF;">🤖 Agentic AI</b>
-      <p style="color: #CBD5E1; font-size: 13px; margin: 4px 0 0 0;">Autonomous agent swarms &amp; tool calling</p>
-    </td>
-    <td width="33%" bgcolor="#050816" style="border: 1px solid #1f2d6e; border-radius: 8px; padding: 14px;">
-      <b style="color: #00FFA3;">🔍 Advanced RAG</b>
-      <p style="color: #CBD5E1; font-size: 13px; margin: 4px 0 0 0;">Hybrid dense-sparse vector retrieval</p>
-    </td>
-    <td width="33%" bgcolor="#050816" style="border: 1px solid #1f2d6e; border-radius: 8px; padding: 14px;">
-      <b style="color: #7F00FF;">📊 LangGraph</b>
-      <p style="color: #CBD5E1; font-size: 13px; margin: 4px 0 0 0;">Cyclic state graphs &amp; self-evaluating loops</p>
-    </td>
-  </tr>
-  <tr>
-    <td width="33%" bgcolor="#050816" style="border: 1px solid #1f2d6e; border-radius: 8px; padding: 14px;">
-      <b style="color: #F5F7FF;">🏗️ LLM App Architecture</b>
-      <p style="color: #CBD5E1; font-size: 13px; margin: 4px 0 0 0;">Scalable inference &amp; memory layers</p>
-    </td>
-    <td width="33%" bgcolor="#050816" style="border: 1px solid #1f2d6e; border-radius: 8px; padding: 14px;">
-      <b style="color: #00F7FF;">⛓️ Web3</b>
-      <p style="color: #CBD5E1; font-size: 13px; margin: 4px 0 0 0;">EVM protocols &amp; smart contracts</p>
-    </td>
-    <td width="33%" bgcolor="#050816" style="border: 1px solid #1f2d6e; border-radius: 8px; padding: 14px;">
-      <b style="color: #00FFA3;">🔐 Zero-Knowledge Proofs</b>
-      <p style="color: #CBD5E1; font-size: 13px; margin: 4px 0 0 0;">Privacy-preserving cryptographic circuits</p>
-    </td>
-  </tr>
-</table>
+<!-- CURRENTLY_BUILDING_START -->
+```text
+AI Software Compiler
+├─ Multi-agent architecture
+├─ AI-assisted project planning
+├─ Code generation
+└─ Structured application architecture
 
-<br>
-
- 
+NEXT:
+MedVault improvements
+```
+<!-- CURRENTLY_BUILDING_END -->
 
 <br>
 
 <!-- ====================================================================== -->
-<!-- 12. FOOTER & CONNECT                                                   -->
+<!-- 10. CONNECT                                                            -->
 <!-- ====================================================================== -->
 
 <div align="center">
@@ -482,19 +439,19 @@
 <br>
 
 <p align="center">
-  <a href="https://linkedin.com/in/YOUR_LINKEDIN" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
-  </a>
-  &nbsp;
   <a href="https://github.com/Durvankur-Joshi">
     <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
+  </a>
+  &nbsp;
+  <a href="https://linkedin.com/in/Durvankur-Joshi" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
   </a>
   &nbsp;
   <a href="https://YOUR_PORTFOLIO" target="_blank">
     <img src="https://img.shields.io/badge/Portfolio-00F7FF?style=for-the-badge&logo=google-chrome&logoColor=050816" alt="Portfolio">
   </a>
   &nbsp;
-  <a href="mailto:YOUR_EMAIL">
+  <a href="mailto:joshidurvankur.29@gmail.com">
     <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
   </a>
 </p>
