@@ -6,12 +6,13 @@ Welcome to your custom, high-tech GitHub profile README! This guide details how 
 
 ## 📋 Table of Contents
 1. [Repository Setup (Special Profile Repo)](#1-repository-setup)
-2. [Replacing Placeholders](#2-replacing-placeholders)
-3. [Enabling the Contribution Snake Animation](#3-enabling-the-contribution-snake-animation)
-4. [Customizing the 3D Tech Sphere SVG](#4-customizing-the-3d-tech-sphere-svg)
-5. [Customizing the Hero Banner & Header](#5-customizing-the-hero-banner--header)
-6. [Updating & Customizing GitHub Stats](#6-updating--customizing-github-stats)
-7. [Deploying & Syncing Profile Changes](#7-deploying--syncing-profile-changes)
+2. [Profile Structure Overview](#2-profile-structure-overview)
+3. [Replacing Placeholders](#3-replacing-placeholders)
+4. [Enabling the Contribution Snake Animation](#4-enabling-the-contribution-snake-animation)
+5. [Customizing the 3D Tech Sphere SVG](#5-customizing-the-3d-tech-sphere-svg)
+6. [Customizing the Hero Banner & Header](#6-customizing-the-hero-banner--header)
+7. [Updating & Customizing GitHub Stats](#7-updating--customizing-github-stats)
+8. [Deploying & Syncing Profile Changes](#8-deploying--syncing-profile-changes)
 
 ---
 
@@ -29,34 +30,62 @@ GitHub displays your profile README when it is located in a special public repos
    git add .
    git commit -m "feat: initialize futuristic cyber GitHub profile"
    git branch -M main
-   git remote add origin https://github.com/<Durvankur-JoshiE>/<Durvankur-JoshiE>.git
+   git remote add origin https://github.com/<YOUR_GITHUB_USERNAME>/<YOUR_GITHUB_USERNAME>.git
    git push -u origin main
    ```
 
 ---
 
-## 2. Replacing Placeholders
+## 2. Profile Structure Overview
+
+Your profile is organized into 10 structured sections:
+
+```text
+HERO
+ ↓
+ABOUT ME
+ ↓
+WHAT I BUILD
+ ↓
+TECH STACK
+ ↓
+FEATURED PROJECTS
+ ↓
+HACKATHON / ACHIEVEMENTS
+ ↓
+GITHUB CONTRIBUTIONS
+ ↓
+GITHUB STATS
+ ↓
+CURRENTLY LEARNING
+ ↓
+CONNECT WITH ME
+```
+
+---
+
+## 3. Replacing Placeholders
 
 Search and replace the following placeholder strings across `README.md` and `.github/workflows/snake.yml`:
 
 | Placeholder | Description | Example |
 |---|---|---|
-| `Durvankur-JoshiE` | Your exact GitHub username | `Durvankur-Joshi` or `durvankurjoshi` |
-| `YOUR_LINKEDIN` | Your LinkedIn profile handle or path | `durvankur-joshi` |
+| `YOUR_GITHUB_USERNAME` | Your exact GitHub username | `Durvankur-Joshi` |
+| `YOUR_LINKEDIN` | Your LinkedIn profile handle or URL | `durvankur-joshi` |
 | `YOUR_PORTFOLIO` | Your personal portfolio URL | `durvankur.dev` or `durvankurjoshi.vercel.app` |
-| `YOUR_EMAIL` | Your professional contact email | `durvankur.joshi@example.com` |
+| `YOUR_EMAIL` | Your professional contact email | `joshidurvankur.29@gmail.com` |
 
 > 💡 **Quick search & replace in VS Code / IDE:**
-> Press `Ctrl + Shift + H` (or `Cmd + Shift + H` on Mac), search for `Durvankur-JoshiE`, and replace with your actual username across all files.
+> Press `Ctrl + Shift + H` (or `Cmd + Shift + H` on Mac), search for `YOUR_GITHUB_USERNAME`, and replace with your actual username across all files.
 
 ---
 
-## 3. Enabling the Contribution Snake Animation
+## 4. Enabling the Contribution Snake Animation
 
 The contribution snake game eats your green contribution tiles and automatically compiles an SVG image every 24 hours via GitHub Actions.
 
 ### Step 1: Enable GitHub Actions Workflow Permissions
-1. Go to your profile repository on GitHub (`https://github.com/<Durvankur-JoshiE>/<Durvankur-JoshiE>`).
+1. Go to your profile repository on GitHub (`https://github.com/<YOUR_GITHUB_USERNAME>/<YOUR_GITHUB_USERNAME>`).
 2. Click **Settings** (top tab) &rarr; **Actions** (left sidebar) &rarr; **General**.
 3. Scroll down to **Workflow permissions**.
 4. Select **Read and write permissions**.
@@ -72,7 +101,7 @@ The contribution snake game eats your green contribution tiles and automatically
 
 ---
 
-## 4. Customizing the 3D Tech Sphere SVG
+## 5. Customizing the 3D Tech Sphere SVG
 
 The 3D orbital tech sphere is located at [`assets/tech-sphere.svg`](assets/tech-sphere.svg).
 
@@ -95,7 +124,7 @@ Look for `dur="24s"` in `<animateTransform>` tags.
 
 ---
 
-## 5. Customizing the Hero Banner & Header
+## 6. Customizing the Hero Banner & Header
 
 The dynamic animated header is located at [`assets/hero-banner.svg`](assets/hero-banner.svg).
 
@@ -108,12 +137,12 @@ The dynamic animated header is located at [`assets/hero-banner.svg`](assets/hero
 
 ---
 
-## 6. Updating & Customizing GitHub Stats
+## 7. Updating & Customizing GitHub Stats
 
 The stats cards in `README.md` are powered by `github-readme-stats` and `github-readme-streak-stats` with matching custom hex parameters:
 
 ```markdown
-https://github-readme-stats.vercel.app/api?username=Durvankur-JoshiE&show_icons=true&theme=tokyonight&bg_color=050816&title_color=00F7FF&text_color=F5F7FF&icon_color=00FFA3&border_color=1f2d6e&hide_border=false&count_private=true&include_all_commits=true
+https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&theme=tokyonight&bg_color=050816&title_color=00F7FF&text_color=F5F7FF&icon_color=00FFA3&border_color=1f2d6e&hide_border=false&count_private=true&include_all_commits=true
 ```
 
 ### Options:
@@ -123,7 +152,7 @@ https://github-readme-stats.vercel.app/api?username=Durvankur-JoshiE&show_icons=
 
 ---
 
-## 7. Deploying & Syncing Profile Changes
+## 8. Deploying & Syncing Profile Changes
 
 Whenever you update `README.md`, assets, or projects:
 
