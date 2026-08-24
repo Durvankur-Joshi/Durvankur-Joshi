@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 30" width="100%" height="30" preserveAspectRatio="none">
+  <defs>
+    <linearGradient id="dividerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00F7FF" stop-opacity="0" />
+      <stop offset="25%" stop-color="#00F7FF" stop-opacity="0.6" />
+      <stop offset="50%" stop-color="#7F00FF" stop-opacity="1" />
+      <stop offset="75%" stop-color="#00FFA3" stop-opacity="0.6" />
+      <stop offset="100%" stop-color="#00FFA3" stop-opacity="0" />
+    </linearGradient>
+    <filter id="divGlow" x="-20%" y="-100%" width="140%" height="300%">
+      <feGaussianBlur stdDeviation="2" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Central Glowing Line -->
+  <line x1="100" y1="15" x2="800" y2="15" stroke="url(#dividerGrad)" stroke-width="1.5" filter="url(#divGlow)" />
+  
+  <!-- Micro Dots and Tech Diamonds -->
+  <g fill="#00F7FF">
+    <circle cx="450" cy="15" r="3.5" fill="#FFFFFF" filter="url(#divGlow)">
+      <animate attributeName="r" values="3;4.5;3" dur="2s" repeatCount="indefinite" />
+    </circle>
+    <polygon points="420,15 425,12 430,15 425,18" fill="#00F7FF" />
+    <polygon points="470,15 475,12 480,15 475,18" fill="#00FFA3" />
+    <circle cx="280" cy="15" r="1.5" fill="#00F7FF" opacity="0.6" />
+    <circle cx="620" cy="15" r="1.5" fill="#00FFA3" opacity="0.6" />
+  </g>
+</svg>

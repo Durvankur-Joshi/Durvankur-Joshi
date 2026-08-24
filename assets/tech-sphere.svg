@@ -1,0 +1,398 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 620" width="100%" height="100%" preserveAspectRatio="xMidYMid meet">
+  <defs>
+    <!-- Background Gradient -->
+    <radialGradient id="spaceGlow" cx="50%" cy="50%" r="65%" fx="50%" fy="50%">
+      <stop offset="0%" stop-color="#0c1236" stop-opacity="0.9" />
+      <stop offset="45%" stop-color="#080c24" stop-opacity="0.95" />
+      <stop offset="100%" stop-color="#050816" stop-opacity="1" />
+    </radialGradient>
+
+    <!-- Core Glow Gradient -->
+    <radialGradient id="coreEnergy" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#00F7FF" stop-opacity="1" />
+      <stop offset="25%" stop-color="#00FFA3" stop-opacity="0.8" />
+      <stop offset="60%" stop-color="#7F00FF" stop-opacity="0.4" />
+      <stop offset="100%" stop-color="#7F00FF" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Center Sphere Glass Gradient -->
+    <radialGradient id="coreSphere" cx="35%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#1cfaff" stop-opacity="0.85" />
+      <stop offset="20%" stop-color="#0d2b5c" stop-opacity="0.9" />
+      <stop offset="65%" stop-color="#070a22" stop-opacity="0.95" />
+      <stop offset="100%" stop-color="#040614" stop-opacity="1" />
+    </radialGradient>
+
+    <!-- Token Pill Gradients -->
+    <linearGradient id="pillGradCyan" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0c1e3d" stop-opacity="0.92" />
+      <stop offset="100%" stop-color="#061224" stop-opacity="0.95" />
+    </linearGradient>
+
+    <linearGradient id="pillGradPurple" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1f0e38" stop-opacity="0.92" />
+      <stop offset="100%" stop-color="#0e071c" stop-opacity="0.95" />
+    </linearGradient>
+
+    <linearGradient id="pillGradMint" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a2a29" stop-opacity="0.92" />
+      <stop offset="100%" stop-color="#051717" stop-opacity="0.95" />
+    </linearGradient>
+
+    <!-- Glow Filters -->
+    <filter id="neonGlowCyan" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="6" result="blur1" />
+      <feGaussianBlur stdDeviation="14" result="blur2" />
+      <feMerge>
+        <feMergeNode in="blur2" />
+        <feMergeNode in="blur1" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <filter id="coreGlow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="18" result="blur1" />
+      <feGaussianBlur stdDeviation="35" result="blur2" />
+      <feMerge>
+        <feMergeNode in="blur2" />
+        <feMergeNode in="blur1" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <filter id="badgeGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="0" stdDeviation="4" flood-color="#00F7FF" flood-opacity="0.5" />
+    </filter>
+
+    <filter id="purpleBadgeGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="0" stdDeviation="4" flood-color="#7F00FF" flood-opacity="0.6" />
+    </filter>
+
+    <filter id="mintBadgeGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="0" stdDeviation="4" flood-color="#00FFA3" flood-opacity="0.6" />
+    </filter>
+
+    <!-- Text Gradients -->
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="50%" stop-color="#00F7FF" />
+      <stop offset="100%" stop-color="#00FFA3" />
+    </linearGradient>
+
+    <!-- Orbital Paths for Motion -->
+    <!-- Orbit 1: Tilt -22 deg, rx=320, ry=120 -->
+    <path id="orbitPath1" d="M 425,310 m -320,0 a 320,120 0 1,0 640,0 a 320,120 0 1,0 -640,0" fill="none" />
+    <!-- Orbit 2: Tilt 35 deg, rx=290, ry=105 -->
+    <path id="orbitPath2" d="M 425,310 m -290,0 a 290,105 0 1,0 580,0 a 290,105 0 1,0 -580,0" fill="none" />
+    <!-- Orbit 3: Tilt -60 deg, rx=270, ry=130 -->
+    <path id="orbitPath3" d="M 425,310 m -270,0 a 270,130 0 1,0 540,0 a 270,130 0 1,0 -540,0" fill="none" />
+    <!-- Orbit 4: Tilt 75 deg, rx=260, ry=95 -->
+    <path id="orbitPath4" d="M 425,310 m -260,0 a 260,95 0 1,0 520,0 a 260,95 0 1,0 -520,0" fill="none" />
+  </defs>
+
+  <style>
+    .mono-text {
+      font-family: 'Space Grotesk', 'SF Pro Display', 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    }
+    .code-font {
+      font-family: 'JetBrains Mono', 'Fira Code', 'Courier New', monospace;
+    }
+    .orbit-ring {
+      fill: none;
+      transition: stroke 0.3s;
+    }
+  </style>
+
+  <!-- Canvas Background -->
+  <rect width="850" height="620" rx="16" fill="url(#spaceGlow)" stroke="#1a234d" stroke-width="1.5" />
+
+  <!-- Cyber Grid Subtle Overlay -->
+  <g opacity="0.12" stroke="#00F7FF" stroke-width="0.8">
+    <line x1="60" y1="310" x2="790" y2="310" stroke-dasharray="3,6" />
+    <line x1="425" y1="50" x2="425" y2="570" stroke-dasharray="3,6" />
+    <circle cx="425" cy="310" r="390" fill="none" stroke-dasharray="2,8" />
+    <circle cx="425" cy="310" r="230" fill="none" stroke-dasharray="4,6" />
+  </g>
+
+  <!-- HUD Telemetry Corner Elements -->
+  <g stroke="#00F7FF" stroke-width="1.5" opacity="0.6" fill="none">
+    <!-- Top Left -->
+    <path d="M 25 45 L 25 25 L 45 25" />
+    <circle cx="25" cy="25" r="2" fill="#00F7FF" />
+    <!-- Top Right -->
+    <path d="M 805 25 L 825 25 L 825 45" />
+    <circle cx="825" cy="25" r="2" fill="#00F7FF" />
+    <!-- Bottom Left -->
+    <path d="M 25 575 L 25 595 L 45 595" />
+    <circle cx="25" cy="595" r="2" fill="#00FFA3" />
+    <!-- Bottom Right -->
+    <path d="M 805 595 L 825 595 L 825 575" />
+    <circle cx="825" cy="595" r="2" fill="#7F00FF" />
+  </g>
+
+  <!-- Top Status Bar in SVG -->
+  <g class="code-font" font-size="11" opacity="0.8">
+    <circle cx="42" cy="45" r="4" fill="#00FFA3">
+      <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite" />
+    </circle>
+    <text x="54" y="49" fill="#00FFA3" letter-spacing="1.5">SYS.AI_ORBITAL_MATRIX // ACTIVE</text>
+    <text x="805" y="49" text-anchor="end" fill="#00F7FF" letter-spacing="1.5">Z-AXIS 3D REVOLUTION</text>
+  </g>
+
+  <!-- Ambient Particles -->
+  <g opacity="0.5">
+    <circle cx="120" cy="140" r="1.5" fill="#00F7FF">
+      <animate attributeName="opacity" values="0.2;1;0.2" dur="3.2s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="710" cy="180" r="1.8" fill="#00FFA3">
+      <animate attributeName="opacity" values="0.8;0.2;0.8" dur="4.1s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="160" cy="480" r="1.2" fill="#7F00FF">
+      <animate attributeName="opacity" values="0.3;0.9;0.3" dur="2.7s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="730" cy="470" r="1.6" fill="#00F7FF">
+      <animate attributeName="opacity" values="0.2;1;0.2" dur="3.5s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="280" cy="90" r="1" fill="#FFFFFF">
+      <animate attributeName="opacity" values="0.1;0.8;0.1" dur="2s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="580" cy="540" r="1.2" fill="#00FFA3">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="3s" repeatCount="indefinite" />
+    </circle>
+  </g>
+
+  <!-- 3D ORBITAL SYSTEM -->
+  <g id="orbitalSystem">
+    
+    <!-- Outer Deep Horizon Ring -->
+    <ellipse cx="425" cy="310" rx="360" ry="145" fill="none" stroke="#7F00FF" stroke-width="1.2" opacity="0.25" stroke-dasharray="8,12">
+      <animateTransform attributeName="transform" type="rotate" from="15 425 310" to="375 425 310" dur="90s" repeatCount="indefinite" />
+    </ellipse>
+
+    <!-- ORBIT RING 1 (Tilt -22 deg) -->
+    <g transform="rotate(-22 425 310)">
+      <!-- Background Ellipse Path -->
+      <ellipse cx="425" cy="310" rx="320" ry="120" class="orbit-ring" stroke="#00F7FF" stroke-width="1.5" opacity="0.45" stroke-dasharray="14,8,4,8" />
+      <ellipse cx="425" cy="310" rx="320" ry="120" class="orbit-ring" stroke="#00F7FF" stroke-width="0.8" opacity="0.2" />
+      
+      <!-- Energy Pulse along ring 1 -->
+      <circle cx="425" cy="190" r="3" fill="#00F7FF" filter="url(#neonGlowCyan)">
+        <animateTransform attributeName="transform" type="rotate" from="0 425 310" to="360 425 310" dur="14s" repeatCount="indefinite" />
+      </circle>
+    </g>
+
+    <!-- ORBIT RING 2 (Tilt 35 deg) -->
+    <g transform="rotate(35 425 310)">
+      <ellipse cx="425" cy="310" rx="290" ry="105" class="orbit-ring" stroke="#7F00FF" stroke-width="1.8" opacity="0.4" stroke-dasharray="20,10" />
+      <ellipse cx="425" cy="310" rx="290" ry="105" class="orbit-ring" stroke="#00FFA3" stroke-width="0.6" opacity="0.25" />
+      
+      <!-- Energy Pulse along ring 2 -->
+      <circle cx="425" cy="205" r="3.5" fill="#7F00FF" filter="url(#coreGlow)">
+        <animateTransform attributeName="transform" type="rotate" from="360 425 310" to="0 425 310" dur="18s" repeatCount="indefinite" />
+      </circle>
+    </g>
+
+    <!-- ORBIT RING 3 (Tilt -60 deg) -->
+    <g transform="rotate(-60 425 310)">
+      <ellipse cx="425" cy="310" rx="270" ry="130" class="orbit-ring" stroke="#00FFA3" stroke-width="1.4" opacity="0.45" stroke-dasharray="12,6,2,6" />
+      
+      <circle cx="425" cy="180" r="3" fill="#00FFA3" filter="url(#neonGlowCyan)">
+        <animateTransform attributeName="transform" type="rotate" from="0 425 310" to="360 425 310" dur="20s" repeatCount="indefinite" />
+      </circle>
+    </g>
+
+    <!-- ORBIT RING 4 (Tilt 75 deg) -->
+    <g transform="rotate(75 425 310)">
+      <ellipse cx="425" cy="310" rx="260" ry="95" class="orbit-ring" stroke="#00F7FF" stroke-width="1.4" opacity="0.35" stroke-dasharray="10,12" />
+    </g>
+
+    <!-- Central Outer Energy Halo -->
+    <circle cx="425" cy="310" r="140" fill="url(#coreEnergy)" filter="url(#coreGlow)">
+      <animate attributeName="r" values="130;148;130" dur="4s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.7;0.95;0.7" dur="4s" repeatCount="indefinite" />
+    </circle>
+
+    <!-- Center HUD Hexagon / Circle Ring -->
+    <g stroke="#00F7FF" stroke-width="1.5" fill="none" opacity="0.7">
+      <circle cx="425" cy="310" r="88" stroke-dasharray="8,10">
+        <animateTransform attributeName="transform" type="rotate" from="0 425 310" to="360 425 310" dur="25s" repeatCount="indefinite" />
+      </circle>
+      <circle cx="425" cy="310" r="76" stroke="#7F00FF" stroke-dasharray="16,8">
+        <animateTransform attributeName="transform" type="rotate" from="360 425 310" to="0 425 310" dur="20s" repeatCount="indefinite" />
+      </circle>
+      <circle cx="425" cy="310" r="66" stroke="#00FFA3" stroke-width="1" stroke-dasharray="4,4" />
+    </g>
+
+    <!-- 3D CENTRAL CORE SPHERE -->
+    <g id="centerCore">
+      <!-- Dark 3D Shaded Core Sphere -->
+      <circle cx="425" cy="310" r="62" fill="url(#coreSphere)" stroke="#00F7FF" stroke-width="2" filter="url(#badgeGlow)" />
+      
+      <!-- Core Inner Specular Arc -->
+      <path d="M 385 278 A 50 50 0 0 1 465 278" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" fill="none" opacity="0.55" />
+      
+      <!-- Pulsing Core Center Point -->
+      <circle cx="425" cy="310" r="3" fill="#00FFA3">
+        <animate attributeName="r" values="2;4.5;2" dur="2s" repeatCount="indefinite" />
+        <animate attributeName="opacity" values="0.6;1;0.6" dur="2s" repeatCount="indefinite" />
+      </circle>
+
+      <!-- Center Typography -->
+      <!-- DURVANKUR -->
+      <text x="425" y="303" class="mono-text" font-size="14.5" font-weight="900" text-anchor="middle" fill="#FFFFFF" letter-spacing="3" filter="drop-shadow(0 0 4px #00F7FF)">
+        DURVANKUR
+      </text>
+      
+      <!-- Decorative Micro Divider -->
+      <line x1="395" y1="311" x2="455" y2="311" stroke="#00FFA3" stroke-width="1.2" opacity="0.8" />
+      
+      <!-- AI × WEB3 -->
+      <text x="425" y="325" class="code-font" font-size="10" font-weight="800" text-anchor="middle" fill="#00FFA3" letter-spacing="2.5">
+        AI × WEB3
+      </text>
+    </g>
+
+    <!-- ========================================== -->
+    <!-- ORBITING TECHNOLOGY NODES (8 TOKENS)       -->
+    <!-- Smooth 3D Revolution via animateTransform  -->
+    <!-- ========================================== -->
+
+    <!-- 1. PYTHON (Orbit 1: Radius 310, Tilt -22 deg) -->
+    <g transform="rotate(-22 425 310)">
+      <g>
+        <animateTransform attributeName="transform" type="rotate" from="0 425 310" to="360 425 310" dur="24s" repeatCount="indefinite" />
+        <!-- Node at (425 + 310, 310) = (735, 310) with counter-rotation -->
+        <g transform="translate(735, 310)">
+          <g>
+            <animateTransform attributeName="transform" type="rotate" from="22 0 0" to="-338 0 0" dur="24s" repeatCount="indefinite" />
+            <!-- Pill Capsule -->
+            <rect x="-48" y="-17" width="96" height="34" rx="17" fill="url(#pillGradCyan)" stroke="#00F7FF" stroke-width="1.8" filter="url(#badgeGlow)" />
+            <!-- Indicator -->
+            <circle cx="-32" cy="0" r="4.5" fill="#00F7FF">
+              <animate attributeName="opacity" values="0.6;1;0.6" dur="2s" repeatCount="indefinite" />
+            </circle>
+            <!-- Label -->
+            <text x="6" y="4" class="code-font" font-size="11.5" font-weight="800" text-anchor="middle" fill="#F5F7FF" letter-spacing="1.2">PYTHON</text>
+          </g>
+        </g>
+      </g>
+    </g>
+
+    <!-- 2. REACT (Orbit 1 Opposite: Radius 310, Tilt -22 deg) -->
+    <g transform="rotate(-22 425 310)">
+      <g>
+        <animateTransform attributeName="transform" type="rotate" from="180 425 310" to="540 425 310" dur="24s" repeatCount="indefinite" />
+        <g transform="translate(735, 310)">
+          <g>
+            <animateTransform attributeName="transform" type="rotate" from="-158 0 0" to="-518 0 0" dur="24s" repeatCount="indefinite" />
+            <rect x="-44" y="-17" width="88" height="34" rx="17" fill="url(#pillGradCyan)" stroke="#00F7FF" stroke-width="1.8" filter="url(#badgeGlow)" />
+            <circle cx="-28" cy="0" r="4.5" fill="#00F7FF" />
+            <text x="7" y="4" class="code-font" font-size="11.5" font-weight="800" text-anchor="middle" fill="#F5F7FF" letter-spacing="1.2">REACT</text>
+          </g>
+        </g>
+      </g>
+    </g>
+
+    <!-- 3. NEXT.JS (Orbit 2: Radius 280, Tilt 35 deg) -->
+    <g transform="rotate(35 425 310)">
+      <g>
+        <animateTransform attributeName="transform" type="rotate" from="45 425 310" to="405 425 310" dur="28s" repeatCount="indefinite" />
+        <g transform="translate(705, 310)">
+          <g>
+            <animateTransform attributeName="transform" type="rotate" from="-80 0 0" to="-440 0 0" dur="28s" repeatCount="indefinite" />
+            <rect x="-48" y="-17" width="96" height="34" rx="17" fill="url(#pillGradPurple)" stroke="#7F00FF" stroke-width="1.8" filter="url(#purpleBadgeGlow)" />
+            <circle cx="-32" cy="0" r="4.5" fill="#7F00FF" />
+            <text x="6" y="4" class="code-font" font-size="11.5" font-weight="800" text-anchor="middle" fill="#F5F7FF" letter-spacing="1.2">NEXT.JS</text>
+          </g>
+        </g>
+      </g>
+    </g>
+
+    <!-- 4. FASTAPI (Orbit 2 Opposite: Radius 280, Tilt 35 deg) -->
+    <g transform="rotate(35 425 310)">
+      <g>
+        <animateTransform attributeName="transform" type="rotate" from="225 425 310" to="585 425 310" dur="28s" repeatCount="indefinite" />
+        <g transform="translate(705, 310)">
+          <g>
+            <animateTransform attributeName="transform" type="rotate" from="-260 0 0" to="-620 0 0" dur="28s" repeatCount="indefinite" />
+            <rect x="-48" y="-17" width="96" height="34" rx="17" fill="url(#pillGradMint)" stroke="#00FFA3" stroke-width="1.8" filter="url(#mintBadgeGlow)" />
+            <circle cx="-32" cy="0" r="4.5" fill="#00FFA3" />
+            <text x="6" y="4" class="code-font" font-size="11.5" font-weight="800" text-anchor="middle" fill="#F5F7FF" letter-spacing="1.2">FASTAPI</text>
+          </g>
+        </g>
+      </g>
+    </g>
+
+    <!-- 5. LANGCHAIN (Orbit 3: Radius 260, Tilt -60 deg) -->
+    <g transform="rotate(-60 425 310)">
+      <g>
+        <animateTransform attributeName="transform" type="rotate" from="90 425 310" to="450 425 310" dur="32s" repeatCount="indefinite" />
+        <g transform="translate(685, 310)">
+          <g>
+            <animateTransform attributeName="transform" type="rotate" from="30 0 0" to="-330 0 0" dur="32s" repeatCount="indefinite" />
+            <rect x="-56" y="-17" width="112" height="34" rx="17" fill="url(#pillGradCyan)" stroke="#00F7FF" stroke-width="1.8" filter="url(#badgeGlow)" />
+            <circle cx="-40" cy="0" r="4.5" fill="#00FFA3" />
+            <text x="6" y="4" class="code-font" font-size="11" font-weight="800" text-anchor="middle" fill="#F5F7FF" letter-spacing="1.2">LANGCHAIN</text>
+          </g>
+        </g>
+      </g>
+    </g>
+
+    <!-- 6. SOLIDITY (Orbit 3 Opposite: Radius 260, Tilt -60 deg) -->
+    <g transform="rotate(-60 425 310)">
+      <g>
+        <animateTransform attributeName="transform" type="rotate" from="270 425 310" to="630 425 310" dur="32s" repeatCount="indefinite" />
+        <g transform="translate(685, 310)">
+          <g>
+            <animateTransform attributeName="transform" type="rotate" from="-150 0 0" to="-510 0 0" dur="32s" repeatCount="indefinite" />
+            <rect x="-50" y="-17" width="100" height="34" rx="17" fill="url(#pillGradPurple)" stroke="#7F00FF" stroke-width="1.8" filter="url(#purpleBadgeGlow)" />
+            <circle cx="-34" cy="0" r="4.5" fill="#00F7FF" />
+            <text x="6" y="4" class="code-font" font-size="11.5" font-weight="800" text-anchor="middle" fill="#F5F7FF" letter-spacing="1.2">SOLIDITY</text>
+          </g>
+        </g>
+      </g>
+    </g>
+
+    <!-- 7. NODE.JS (Orbit 4: Radius 245, Tilt 75 deg) -->
+    <g transform="rotate(75 425 310)">
+      <g>
+        <animateTransform attributeName="transform" type="rotate" from="135 425 310" to="495 425 310" dur="26s" repeatCount="indefinite" />
+        <g transform="translate(670, 310)">
+          <g>
+            <animateTransform attributeName="transform" type="rotate" from="-210 0 0" to="-570 0 0" dur="26s" repeatCount="indefinite" />
+            <rect x="-48" y="-17" width="96" height="34" rx="17" fill="url(#pillGradMint)" stroke="#00FFA3" stroke-width="1.8" filter="url(#mintBadgeGlow)" />
+            <circle cx="-32" cy="0" r="4.5" fill="#00FFA3" />
+            <text x="6" y="4" class="code-font" font-size="11.5" font-weight="800" text-anchor="middle" fill="#F5F7FF" letter-spacing="1.2">NODE.JS</text>
+          </g>
+        </g>
+      </g>
+    </g>
+
+    <!-- 8. SUPABASE (Orbit 4 Opposite: Radius 245, Tilt 75 deg) -->
+    <g transform="rotate(75 425 310)">
+      <g>
+        <animateTransform attributeName="transform" type="rotate" from="315 425 310" to="675 425 310" dur="26s" repeatCount="indefinite" />
+        <g transform="translate(670, 310)">
+          <g>
+            <animateTransform attributeName="transform" type="rotate" from="-390 0 0" to="-750 0 0" dur="26s" repeatCount="indefinite" />
+            <rect x="-52" y="-17" width="104" height="34" rx="17" fill="url(#pillGradMint)" stroke="#00FFA3" stroke-width="1.8" filter="url(#mintBadgeGlow)" />
+            <circle cx="-36" cy="0" r="4.5" fill="#00FFA3" />
+            <text x="6" y="4" class="code-font" font-size="11.5" font-weight="800" text-anchor="middle" fill="#F5F7FF" letter-spacing="1.2">SUPABASE</text>
+          </g>
+        </g>
+      </g>
+    </g>
+
+  </g>
+
+  <!-- Bottom Telemetry Metric Readout -->
+  <g class="code-font" font-size="10.5" opacity="0.85">
+    <rect x="235" y="565" width="380" height="32" rx="16" fill="#0c1236" stroke="#1f2d6e" stroke-width="1.2" />
+    <circle cx="255" cy="581" r="3.5" fill="#00F7FF">
+      <animate attributeName="opacity" values="0.4;1;0.4" dur="1.5s" repeatCount="indefinite" />
+    </circle>
+    <text x="268" y="585" fill="#8b9cc7">CLUSTER STATUS:</text>
+    <text x="375" y="585" fill="#00FFA3" font-weight="700">8 NODES ONLINE</text>
+    <text x="495" y="585" fill="#00F7FF" font-weight="700">60 FPS 3D</text>
+  </g>
+</svg>
