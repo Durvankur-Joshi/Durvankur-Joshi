@@ -29,7 +29,7 @@ GitHub displays your profile README when it is located in a special public repos
    git add .
    git commit -m "feat: redesign modern futuristic GitHub profile"
    git branch -M main
-   git remote add origin https://github.com/<YOUR_GITHUB_USERNAME>/<YOUR_GITHUB_USERNAME>.git
+   git remote add origin https://github.com/<Durvankur-Joshi>/<Durvankur-Joshi>.git
    git push -u origin main
    ```
 
@@ -41,14 +41,14 @@ Search and replace the following placeholder strings across `README.md`:
 
 | Placeholder | Description | Example |
 |---|---|---|
-| `YOUR_GITHUB_USERNAME` | Your exact GitHub username | `Durvankur-Joshi` |
+| `Durvankur-Joshi` | Your exact GitHub username | `Durvankur-Joshi` |
 | `YOUR_LINKEDIN` | Your LinkedIn username/handle | `durvankur-joshi` |
 | `YOUR_PORTFOLIO` | Your personal portfolio URL | `durvankur.dev` |
 | `YOUR_EMAIL` | Your professional contact email | `joshidurvankur.29@gmail.com` |
 | `YOUR_LIVE_DEMO_LINK` | Live demo URL for MedVault | `https://medvault-demo.vercel.app` |
 
 > 💡 **Quick search & replace in VS Code / IDE:**
-> Press `Ctrl + Shift + H` (or `Cmd + Shift + H` on Mac), search for `YOUR_GITHUB_USERNAME`, and replace with your actual username across all files.
+> Press `Ctrl + Shift + H` (or `Cmd + Shift + H` on Mac), search for `Durvankur-Joshi`, and replace with your actual username across all files.
 
 ---
 

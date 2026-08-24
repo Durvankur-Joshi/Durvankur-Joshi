@@ -11,7 +11,7 @@
 <!-- 01. HERO SECTION                                                       -->
 <!-- ====================================================================== -->
 
-<a href="https://github.com/YOUR_GITHUB_USERNAME">
+<a href="https://github.com/Durvankur-Joshi">
   <img src="assets/hero.svg" alt="Durvankur Joshi - AI Engineer & Full-Stack Developer" width="100%">
 </a>
 
@@ -31,13 +31,13 @@
     <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
   </a>
   &nbsp;
-  <a href="https://github.com/YOUR_GITHUB_USERNAME?tab=repositories">
+  <a href="https://github.com/Durvankur-Joshi?tab=repositories">
     <img src="https://img.shields.io/badge/Repositories-00FFA3?style=for-the-badge&logo=github&logoColor=050816" alt="Repositories">
   </a>
 </p>
 
 <!-- SECTION DIVIDER -->
-<img src="assets/cyber-divider.svg" width="100%" alt="Divider">
+  
 
 </div>
 
@@ -237,7 +237,7 @@
 <table width="100%">
   <tr>
     <td bgcolor="#050816" style="border-left: 4px solid #7F00FF; border-top: 1px solid #1f2d6e; border-right: 1px solid #1f2d6e; border-bottom: 1px solid #1f2d6e; border-radius: 8px; padding: 18px;">
-      <h3 style="margin-top: 0;"><a href="https://github.com/YOUR_GITHUB_USERNAME/medvault" style="color: #00FFA3; text-decoration: none;">01. MedVault — Decentralized Medical History Ledger</a></h3>
+      <h3 style="margin-top: 0;"><a href="https://github.com/Durvankur-Joshi/medvault" style="color: #00FFA3; text-decoration: none;">01. MedVault — Decentralized Medical History Ledger</a></h3>
       <p style="color: #CBD5E1; font-size: 14px; line-height: 1.5;">
         Privacy-first medical record sharing using blockchain, patient consent and zero-knowledge concepts.
       </p>
@@ -245,7 +245,7 @@
         <code>Next.js</code> &bull; <code>FastAPI</code> &bull; <code>PostgreSQL</code> &bull; <code>Supabase</code> &bull; <code>Solidity</code> &bull; <code>Ethereum</code> &bull; <code>ZK</code>
       </p>
       <p>
-        <a href="https://github.com/YOUR_GITHUB_USERNAME/medvault"><img src="https://img.shields.io/badge/Code-GitHub-7F00FF?style=flat-square&logo=github&logoColor=white" alt="Code"></a>
+        <a href="https://github.com/Durvankur-Joshi/medvault"><img src="https://img.shields.io/badge/Code-GitHub-7F00FF?style=flat-square&logo=github&logoColor=white" alt="Code"></a>
         <a href="https://YOUR_LIVE_DEMO_LINK"><img src="https://img.shields.io/badge/Live_Demo-00FFA3?style=flat-square&logo=vercel&logoColor=050816" alt="Live Demo"></a>
       </p>
     </td>
@@ -258,7 +258,7 @@
 <table width="100%">
   <tr>
     <td bgcolor="#050816" style="border-left: 4px solid #00F7FF; border-top: 1px solid #1f2d6e; border-right: 1px solid #1f2d6e; border-bottom: 1px solid #1f2d6e; border-radius: 8px; padding: 18px;">
-      <h3 style="margin-top: 0;"><a href="https://github.com/YOUR_GITHUB_USERNAME/ai-debugging-agent" style="color: #00F7FF; text-decoration: none;">02. AI Debugging Agent</a></h3>
+      <h3 style="margin-top: 0;"><a href="https://github.com/Durvankur-Joshi/ai-debugging-agent" style="color: #00F7FF; text-decoration: none;">02. AI Debugging Agent</a></h3>
       <p style="color: #CBD5E1; font-size: 14px; line-height: 1.5;">
         AI-powered debugging system that understands repositories, retrieves relevant code and helps diagnose errors.
       </p>
@@ -266,7 +266,7 @@
         <code>Python</code> &bull; <code>FastAPI</code> &bull; <code>LangGraph</code> &bull; <code>LangChain</code> &bull; <code>Hugging Face</code> &bull; <code>pgvector</code>
       </p>
       <p>
-        <a href="https://github.com/YOUR_GITHUB_USERNAME/ai-debugging-agent"><img src="https://img.shields.io/badge/Code-GitHub-00F7FF?style=flat-square&logo=github&logoColor=050816" alt="Code"></a>
+        <a href="https://github.com/Durvankur-Joshi/ai-debugging-agent"><img src="https://img.shields.io/badge/Code-GitHub-00F7FF?style=flat-square&logo=github&logoColor=050816" alt="Code"></a>
       </p>
     </td>
   </tr>
@@ -278,7 +278,7 @@
 <table width="100%">
   <tr>
     <td bgcolor="#050816" style="border-left: 4px solid #00FFA3; border-top: 1px solid #1f2d6e; border-right: 1px solid #1f2d6e; border-bottom: 1px solid #1f2d6e; border-radius: 8px; padding: 18px;">
-      <h3 style="margin-top: 0;"><a href="https://github.com/YOUR_GITHUB_USERNAME/ai-software-compiler" style="color: #00FFA3; text-decoration: none;">03. AI Software Compiler</a></h3>
+      <h3 style="margin-top: 0;"><a href="https://github.com/Durvankur-Joshi/ai-software-compiler" style="color: #00FFA3; text-decoration: none;">03. AI Software Compiler</a></h3>
       <p style="color: #CBD5E1; font-size: 14px; line-height: 1.5;">
         Transforms natural-language software requirements into structured application architecture.
       </p>
@@ -286,7 +286,7 @@
         <code>Python</code> &bull; <code>FastAPI</code> &bull; <code>LLMs</code> &bull; <code>Pydantic</code> &bull; <code>Supabase</code>
       </p>
       <p>
-        <a href="https://github.com/YOUR_GITHUB_USERNAME/ai-software-compiler"><img src="https://img.shields.io/badge/Code-GitHub-00FFA3?style=flat-square&logo=github&logoColor=050816" alt="Code"></a>
+        <a href="https://github.com/Durvankur-Joshi/ai-software-compiler"><img src="https://img.shields.io/badge/Code-GitHub-00FFA3?style=flat-square&logo=github&logoColor=050816" alt="Code"></a>
       </p>
     </td>
   </tr>
@@ -299,17 +299,17 @@
   <tr>
     <!-- CHATFUSION -->
     <td width="50%" bgcolor="#050816" style="border-top: 1px solid #1f2d6e; border-right: 1px solid #1f2d6e; border-bottom: 1px solid #1f2d6e; border-left: 3px solid #00F7FF; border-radius: 8px; padding: 16px; vertical-align: top;">
-      <h4 style="margin-top: 0;"><a href="https://github.com/YOUR_GITHUB_USERNAME/chatfusion" style="color: #00F7FF; text-decoration: none;">04. ChatFusion</a></h4>
+      <h4 style="margin-top: 0;"><a href="https://github.com/Durvankur-Joshi/chatfusion" style="color: #00F7FF; text-decoration: none;">04. ChatFusion</a></h4>
       <p style="color: #CBD5E1; font-size: 13.5px; line-height: 1.4;">Real-time chat application with interactive messaging.</p>
       <p><code>MERN</code> &bull; <code>Socket.IO</code></p>
-      <a href="https://github.com/YOUR_GITHUB_USERNAME/chatfusion"><img src="https://img.shields.io/badge/Repo-GitHub-00F7FF?style=flat-square&logo=github&logoColor=050816" alt="Code"></a>
+      <a href="https://github.com/Durvankur-Joshi/chatfusion"><img src="https://img.shields.io/badge/Repo-GitHub-00F7FF?style=flat-square&logo=github&logoColor=050816" alt="Code"></a>
     </td>
     <!-- CODEX -->
     <td width="50%" bgcolor="#050816" style="border-top: 1px solid #1f2d6e; border-right: 1px solid #1f2d6e; border-bottom: 1px solid #1f2d6e; border-left: 3px solid #7F00FF; border-radius: 8px; padding: 16px; vertical-align: top;">
-      <h4 style="margin-top: 0;"><a href="https://github.com/YOUR_GITHUB_USERNAME/codex" style="color: #00FFA3; text-decoration: none;">05. CodeX</a></h4>
+      <h4 style="margin-top: 0;"><a href="https://github.com/Durvankur-Joshi/codex" style="color: #00FFA3; text-decoration: none;">05. CodeX</a></h4>
       <p style="color: #CBD5E1; font-size: 13.5px; line-height: 1.4;">Browser-based online coding environment.</p>
       <p><code>React</code> &bull; <code>Node.js</code> &bull; <code>Express</code></p>
-      <a href="https://github.com/YOUR_GITHUB_USERNAME/codex"><img src="https://img.shields.io/badge/Repo-GitHub-7F00FF?style=flat-square&logo=github&logoColor=white" alt="Code"></a>
+      <a href="https://github.com/Durvankur-Joshi/codex"><img src="https://img.shields.io/badge/Repo-GitHub-7F00FF?style=flat-square&logo=github&logoColor=white" alt="Code"></a>
     </td>
   </tr>
 </table>
@@ -379,9 +379,9 @@
 ## 🐍 Contribution Game
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/YOUR_GITHUB_USERNAME/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/YOUR_GITHUB_USERNAME/output/github-contribution-grid-snake.svg">
-  <img alt="Durvankur's GitHub Contribution Grid Snake" src="https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/YOUR_GITHUB_USERNAME/output/github-contribution-grid-snake-dark.svg" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Durvankur-Joshi/Durvankur-Joshi/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Durvankur-Joshi/Durvankur-Joshi/output/github-contribution-grid-snake.svg">
+  <img alt="Durvankur's GitHub Contribution Grid Snake" src="https://raw.githubusercontent.com/Durvankur-Joshi/Durvankur-Joshi/output/github-contribution-grid-snake-dark.svg" width="100%">
 </picture>
 
 <br><br>
@@ -395,15 +395,15 @@
 <table align="center" width="100%">
   <tr>
     <td width="50%" align="center" valign="top">
-      <img src="https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&theme=tokyonight&bg_color=050816&title_color=00F7FF&text_color=F5F7FF&icon_color=00FFA3&border_color=1f2d6e&hide_border=false&count_private=true&include_all_commits=true" width="100%" alt="GitHub Stats">
+      <img src="https://github-readme-stats.vercel.app/api?username=Durvankur-Joshi&show_icons=true&theme=tokyonight&bg_color=050816&title_color=00F7FF&text_color=F5F7FF&icon_color=00FFA3&border_color=1f2d6e&hide_border=false&count_private=true&include_all_commits=true" width="100%" alt="GitHub Stats">
     </td>
     <td width="50%" align="center" valign="top">
-      <img src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR_GITHUB_USERNAME&theme=tokyonight&background=050816&ring=00F7FF&fire=00FFA3&currStreakLabel=00F7FF&currStreakNum=FFFFFF&sideNums=00FFA3&sideLabels=F5F7FF&border=1f2d6e&hide_border=false" width="100%" alt="GitHub Streak Stats">
+      <img src="https://github-readme-streak-stats.herokuapp.com/?user=Durvankur-Joshi&theme=tokyonight&background=050816&ring=00F7FF&fire=00FFA3&currStreakLabel=00F7FF&currStreakNum=FFFFFF&sideNums=00FFA3&sideLabels=F5F7FF&border=1f2d6e&hide_border=false" width="100%" alt="GitHub Streak Stats">
     </td>
   </tr>
   <tr>
     <td colspan="2" align="center">
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_USERNAME&layout=compact&theme=tokyonight&bg_color=050816&title_color=00F7FF&text_color=F5F7FF&border_color=1f2d6e&hide_border=false" width="60%" alt="Top Languages">
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Durvankur-Joshi&layout=compact&theme=tokyonight&bg_color=050816&title_color=00F7FF&text_color=F5F7FF&border_color=1f2d6e&hide_border=false" width="60%" alt="Top Languages">
     </td>
   </tr>
 </table>
@@ -416,11 +416,11 @@
 
 ## 📈 Activity Graph
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=YOUR_GITHUB_USERNAME&bg_color=050816&color=00F7FF&line=00FFA3&point=7F00FF&area=true&hide_border=false&border=1f2d6e" width="100%" alt="Contribution Activity Graph">
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Durvankur-Joshi&bg_color=050816&color=00F7FF&line=00FFA3&point=7F00FF&area=true&hide_border=false&border=1f2d6e" width="100%" alt="Contribution Activity Graph">
 
 <br><br>
 
-<img src="assets/cyber-divider.svg" width="100%" alt="Divider">
+  
 
 </div>
 
@@ -486,7 +486,7 @@
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
   </a>
   &nbsp;
-  <a href="https://github.com/YOUR_GITHUB_USERNAME">
+  <a href="https://github.com/Durvankur-Joshi">
     <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
   </a>
   &nbsp;
@@ -515,7 +515,7 @@
 <br>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=YOUR_GITHUB_USERNAME&style=flat-square&color=00F7FF&label=PROFILE+VIEWS" alt="Profile Views">
+  <img src="https://komarev.com/ghpvc/?username=Durvankur-Joshi&style=flat-square&color=00F7FF&label=PROFILE+VIEWS" alt="Profile Views">
 </p>
 
 </div>
